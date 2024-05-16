@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.auth-image {
+  background-image: url('./assets/recepie_img.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.recepie-dashboard {
+  background-image: url('./assets/recepie-dashboard.svg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #ccc;
+}
